@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Remote_Desktop-Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="public/assets/js/jquery.jcarousel.min"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/assets/css/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+<script type="text/javascript" src="js/main.js"></script>
+    <link rel="icon" href="public/assets/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="glider.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="nav fixed-top col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark col-xl-12 col-md-12 col-sm-12 col-lg-12 col-12" style="height: 110px;">
+                        <div class="container">
+                            <a class="navbar-brand" href="#"><img src="./public/assets/img/logo.png" alt="" style="height: 70px; width: 100px;"></a>
+                            <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" style="background-color: black;">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 d-flex justify-content-around w-100">
+                                    <li class="nav-item"><a class="nav-link" href="menupage.html"> Menu</a> </li>
+                                     <li class="nav-item"><a class="nav-link" href="#about-section"> About us</a> </li>
+                                    <li class="nav-item"><a class="nav-link" href="#order-section"> order Now</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#offer-section"> offer</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#giftcard-section"> gift cards</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <a class=" find-location text-capitalize"  onclick="document.getElementById('id01').style.display='block'" style="width: auto;" href="#id01">Find Location </a>
+                    <div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="#">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="./public/assets/img/location.png" alt="Location" style="height: 15%; width: 10%;">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Enter your Location</b></label>
+      <input type="text" placeholder="Enter State/City/Zipcode" name="location-name" required>
+
+     
+        
+      <button type="submit">Search</button>
+      
+    </div>
+
+    <div class="container">
+      
+      <div id="id01" class="modal">
+  <form class="modal-content animate" action="#">
+    <div class="imgcontainer" style="background-color: orange;">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Enter your Location</b></label>
+      <input type="text" placeholder="Enter State/City/Zipcode" name="location-name" required>
+
+     
+        
+      <button type="submit">Search</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+    </div>
+  </form>
+</div>
+                </div>
+            </div>
+        </div>
+</header>
+    <div class="wrap">
+        <div class="carousel">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" style="padding: 0px 0px;">
+                        <div id="carouselId" class="carousel slide" data-ride="carousel" style="height: auto; width: auto;">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselId" data-slide-to="1"></li>
+                                <li data-target="#carouselId" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <a href="">
+                                        <img src="./public/assets/img/showslide1.png" alt="First slide" class="img-item">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="">
+                                        <img src="./public/assets/img/showslide2.png" alt="Second slide" class="img-item">
+                                    </a>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href="">
+                                        <img src="./public/assets/img/showslide3.jpg" alt="Third slide" class="img-item">
+                                    </a>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order" id="about-section" style="padding-top: 100px; background-color: #fcebe7;">
+            <div class="container">
+                <h2 style="text-align: center;"><b><u>ABOUT US</u></b></h2>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                        <div class="order-content">
+                            <img src="./public/assets/img/background-order.jpg" alt="" class="order-item">
+                            <div class="contents ">
+                                <div class="bachground-gradient">
+                                </div>
+                                <div class="contents-text d-flex justify-content-center align-items-center">
+                                    <div class="block">
+                                        
+                                        
+                                            <pre>
+                                            We are an Australian-inspired steakhouse restaurant beloved
+                                            worldwide. We pride ourselves on serving up variety; our
+                                            unbeatable steak cuts are complemented by delicious choices
+                                            of chicken, ribs, seafood, and pasta at a price foreveryone.
+                                            Our strategy? We're the leader of th pack by emphasizing
+                                            consistently high quality delicious food delivering a warm,
+                                            welcoming environment. Our generous portions are moderately
+                                            priced. Our casual atmosphere couldn't be more transporting
+                                            - it's like you're right there in the Australian Restorent
+                                            Desktop.
+                                            </pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container" id="offer-section" style="padding-top: 120px;">
+        <h2 style="text-align: center;"><b><u>OFFERS</u></b></h2>
+                <div class="row scroll-item">
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4">
+                        <div class="product">
+                            <img src="./public/assets/img/layer1.jpg" alt="" class="layer">
+                            <div class="product-contents">
+                                <h3>
+                                    <span class="title">
+                                        Offer
+                                    </span><br>
+                                    <span class="title">
+                                        & Daily
+                                    </span><br>
+                                    <span class="title">
+                                        Special
+                                    </span>
+                                </h3>
+
+                            </div>
+                            <button class="btn btn-order text-uppercase text-white" style="width: auto; height: auto;">
+                                VIEW OFFERS
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4">
+                        <div class="product">
+                            <img src="./public/assets/img/layer2.jpg" alt="" class="layer">
+                            <div class="product-contents">
+                                <h3>
+                                    <span class="title">
+                                        Buy $50   
+                                    </span><br>
+                                    <span class="title">
+                                        Get $10
+                                    </span><br>
+                                </h3>
+                            </div>
+                            <button class="btn btn-order text-uppercase text-white" style="width: auto; height: auto;">
+                                order Now
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4">
+                        <div class="product">
+                            <img src="./public/assets/img/layer3.jpg" alt="" class="layer">
+                            <div class="product-contents">
+                                <h3>
+                                    <span class="title">
+                                       Steak,
+                                    </span><br>
+                                    <span class="title">
+                                       Fries & Beer
+                                    </span><br>
+                                    <span class="title">
+                                        $10.99
+                                    </span>
+                                </h3>
+                            </div>
+                            <button class="btn btn-order text-uppercase text-white" style="width: auto; height: auto;">
+                                order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>  
+                <div class="row">
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4">
+                            <div class="product">
+                                <img src="./public/assets/img/layer4.jpg" alt="" class="layer">
+                                <div class="product-contents">
+                                    <h3>
+                                        <span class="title">
+                                            Aussie
+                                        </span><br>
+                                        <span class="title">
+                                             Party
+                                        </span><br>
+                                        <span class="title">
+                                            Platters
+                                        </span>
+                                    </h3>
+
+                                </div>
+                                <button class="btn btn-order text-uppercase text-white" style="width: auto; height: auto;">
+                                    VIEW OFFERS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4">
+                            <div class="product">
+                                <img src="./public/assets/img/layer5.jpg" alt="" class="layer">
+                                <div class="product-contents">
+                                    <h3>
+                                        <span class="title">
+                                            Eat.
+                                        </span><br>
+                                        <span class="title">
+                                            Earn. Redeem.
+                                        </span><br>
+                                        <span class="title">
+                                            Redeem.
+                                        </span><br>
+                                    </h3>
+                                </div>
+                                <button class="btn btn-order text-uppercase text-white" style="width: auto; height: auto;">
+                                    order Now
+                                </button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4">
+                            <div class="product">
+                                <img src="./public/assets/img/layer6.jpg" alt="" class="layer">
+                                <div class="product-contents">
+                                    <h3>
+                                        <span class="title">
+                                        AARP Members
+                                        </span><br>
+                                        <span class="title">
+                                           Save 10% 
+                                        </span><br>
+                                        
+                                    </h3>
+                                </div>
+                                <button class="btn btn-order text-uppercase text-white" style="width: auto; height: auto;">
+                                    order Now
+                                </button>
+                            </div>
+                        </div>
+                </div>
+    </div>
+
+
+    <div id="order-section" style="padding-top: 100px; background-color: #fcebe7;">            
+        <div class="container">
+        <h2 style="text-align: center; padding-bottom: 50px;"><b><u>START YOUR ORDER NOW</u></b></h2>
+            <div class="tab"> 
+            <button class="tablink" onclick="openPage('Home', this, '#FF5215')" id="defaultOpen" style="width: 50%; font-size: 24px; height: 60px;"><b>PICKUP</b></button>
+            <button class="tablink" onclick="openPage('News', this, '#FF5215')" style="width: 49%; font-size: 24px; height: 60px;"><b>DELIVERY</b></button>
+            </div>
+            <div class="row scroll-item"> 
+                <div class="col-12">
+                    <div id="Home" class="tabcontent">
+                        <h3>FIND YOUR LOCATION</h3>
+
+                        <input type="text" pattern="[0-9]{5}" class="form-control form-rounded" placeholder="Enter State/City/Zipcode">
+                         <br>
+                        <button class="button button4" style="height: auto; width: 210px;">Search</button>
+                    </div>
+                    <div id="News" class="tabcontent">
+                    <h3>WHERE SHOULD WE DELIVER YOUR FOOD?</h3>
+                    <input type="text" class="form-control form-rounded" placeholder="Enter your delivery address *">
+                    <br>
+                    <input type="text" class="form-control form-rounded" placeholder="Additional Instruction ">
+                    <button class="button button5" style="height: auto; width: 210px;">Use This Address</button>
+                    </div>
+                                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="container">
+        <hr>
+       <div style="text-align: center;"><h1><b>Buy $50, Get $10 Off</b></h1>
+           <h4>Dine together, even when you can’t.</h4>
+<h6>Send your family a gift card for $50 and we’ll throw in $10 for you.</h6></div>
+<hr>
+<br>
+        <div class="row scroll-item" id="giftcard-section">
+            
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4" style="text-align: center;">
+                <div class="offercard" style="width: 19rem; background-color: #ffffff;"> 
+                    <div class="offercard-body"> 
+                        <h5 class="offercard-title" style="color: #000000;">SEND IT DIGITALLY</h5>   
+                    </div> 
+                    <a href="#giftcard-section"><img class="card-img-top" src="./public/assets/img/free.jpeg" alt="Free Delievery..."></a>
+                </div> 
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4" style="text-align: center;">
+                <div class="offercard" style="width: 19rem; background-color: #ffffff;"> 
+                     <div class="offercard-body"> 
+                        <h5 class="offercard-title" style="color: #000000;">SEND IT BY MAIL</h5> 
+                    </div> 
+                    <a href="#giftcard-section"><img class="card-img-top" src="./public/assets/img/free1.jpg" alt="Free Delievery..."></a>
+                </div>  
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4" style="text-align: center;">
+                <div class="offercard" style="width: 19rem; background-color: #ffffff;"> 
+                    <div class="offercard-body"> 
+                        <h5 class="offercard-title" style="color: #000000;">ORDER IN BULK</h5> 
+                      </div> 
+                    <a href="#giftcard-section"><img class="card-img-top" src="./public/assets/img/free3.jpg" alt="Free Delievery..."></a>
+                </div>
+             </div>
+        </div>  
+    </div>
+
+    <div class="container">
+        <div class="contact">
+               <div class="col-12">
+                   <div class="row">
+                       <div class="col-6" style="width: auto; height: auto; padding-top: 80px;">
+
+                            <div class="row">
+                                <ul style="display: contents;">
+                                    <li>
+                                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4">
+                                           <div class="card" style="width: 10rem; height: 12rem;"> 
+                                               <div class="card-body">
+                                                <h6 class="card_title" style="color: red;">Promotion</h6> 
+                                                <p class="card-text">Free Delivery thru April 30</p>
+                                                <p class="card-text">Get it Now</p>
+                                           </div> 
+                                           <img class="card-img-top" src="./public/assets/img/free.jpg" alt="Free Delievery...">
+                                           </div>
+                                        </div>
+                                     </li>
+                                     <li>
+                                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4">
+                                            <div class="card" style="width: 10rem; height: 12rem;"> 
+                                                <div class="card-body"> 
+                                                    <h6 class="card_title" style="color: red;">Gift card & promotion</h6> 
+                                                    <p class="card-text">Buy $50 gift cards, get $10 e-Bonus</p>
+                                                    
+                                                </div> 
+                                                <img class="card-img-top" src="./public/assets/img/free.jpg" alt="Free Delievery...">
+                                            </div>
+                                        </div>
+                                     </li>
+                                 </ul>
+
+                            </div>
+                            <div class="row">
+                                <ul style="display: contents;">
+                                    <li>
+                                        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4">
+                                             <div class="card" style="width: 10rem; height: 12rem;"> 
+                                                 <div class="card-body"> 
+                                                 <h6 class="card_title" style="color: red;">WednesdayY</h6> 
+                                                  <p class="card-text">Steak, Fries&Beer for $10</p>
+                                                 <p class="card-text">Join us for Walkabout Wednesday!</p>
+                                                 </div> 
+                                                 <img class="card-img-top" src="./public/assets/img/free.jpg" alt="Free Delievery...">
+                                             </div>
+                                         </div>
+                                    </li>
+                                    <li>
+                                        <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 pb-4">
+                                            <div class="card" style="width: 10rem; height: 12rem;"> 
+                                                <div class="card-body"> 
+                                                   <h6 class="card_title" style="color: red;">Promotion</h6> 
+                                                    <p class="card-text">Get easily</p>
+                                                    <p class="card-text">Get a Bloomin’ Onion®, and more.</p>
+                                                </div> 
+                                                <img class="card-img-top" src="./public/assets/img/free.jpg" alt="Free Delievery...">
+                                            </div>
+                                         </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="col-6" style="width: auto; height: auto;">
+                            <h3 class="title col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            Sign Up For Offers and Rewards!
+                            </h3>
+                            <input class="form-control" id="email" name="email" placeholder="EMAIL ADDRESS" type="email" required>
+                            <input class="form-control" id="name" name="name" placeholder="FIRST NAME" type="text" required>
+                            <input class="form-control" id="lastname" name="name" placeholder="LAST NAME" type="text" required>
+                            <input class="form-control" id="phonenumber" name="number" placeholder="PHONE NUMBER" type="tel" required>
+                            <input class="form-control" id="zipcode" name="text" placeholder="ZIP CODE" type="text" required>
+                            
+                            <p class="tutorial"style="font-size: 12px;">When you join <a href="" class="tutorial link"style="font-size: 9px;">Dine Rewards</a> we'll use this phone number to easily identify your account in our restaurants.</p>
+                            <button class="btn btn-full title">sign up</button>
+                            <p class="tutorial" style="font-size: 12px;">In signing up I acknowledge that I am 18 years of age or older, want to receive email offers from Outback and agree to the <a href="" class="tutorial link" style="font-size: 9px;">terms and conditions</a> of the Dine Rewards program.</p>
+
+
+                        </div>
+                   </div> 
+                </div> 
+                <br>  
+            </div>
+    </div>    
+<div class="container-fluid" style="background-color: black;">
+    <footer>
+        <div class="footer scroll-item" id="footer-section">
+            <div class=" container ">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-sm-12 col-lg-9 col-xl-9 text-center ">
+                        <ul class="item-list">
+                            <div class="row">
+                                <li class=""> <a href="menupage.html" class="items " style="color: #ffffff;">MENU</a></li>
+                                <li class=""> <a href="#about-section" class="items " style="color: #ffffff;">ABOUT US</a> </li>
+                                <li class=""> <a href="#order-section" class="items " style="color: #ffffff;">ORDER NOW</a> </li>
+                                <li class=""> <a href="#offer-section" class="items " style="color: #ffffff;">OFFER</a> </li>
+                                <li class=""> <a href="#giftcard-section" class="items " style="color: #ffffff;">GIFT CARD</a></li>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-12 col-sm-12 col-lg-3 col-xl-3 text-center ">
+                        <a href="" class="items"><i class="fab fa-instagram" style="font-size: 30px;color: #ffffff;"></i></a>
+                        <a href="www.facebook.com" class="items"><i class="fab fa-facebook-square" style="font-size: 30px;color: #ffffff;"></i></a>
+                        <a href="" class="items"><i class="fab fa-twitter" style="font-size: 30px; color: #ffffff;"></i></a>
+                        <br>
+                        <span style="color: #ffffff; font-size: 10px; padding-top: 20px;">
+                            © 2020 Restorent Desktop All Rights Reserved.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="public/assets/js/main.js"></script>
+        
+
+
+</footer>
+</div>
+
+        <script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+
+
+
+
+
+    
+</body>
+
+</html>

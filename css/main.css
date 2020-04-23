@@ -1,0 +1,410 @@
+/* HOME */
+html{
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ * {box-sizing:border-box;}
+.nav {
+    padding: 0px 100px;
+    height: 110px;
+    background-color: #4A0404;
+}
+
+.navbar-nav {
+    padding-top: 40px;
+
+}
+.nav .mt-lg-0{ background-color: #4A0404;
+ }
+.nav-link {
+    color: white !important;
+    font-weight: bolder;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+
+.find-location {
+    position: absolute;
+    top: 0px;
+    right: 10%;
+    color: white;
+    z-index: 9999;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+
+
+/* body-container */
+
+.order {
+    padding: 0px 100px;
+}
+
+.carousel {
+    padding-top: 55px;
+}
+
+.img-item {
+    width: 100%;
+    height: 100%;
+
+}
+
+#carouselId li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.order-content {
+    display: block;
+    width: 100%;
+    margin: 20px 0px;
+    min-height: 350px;
+    position: relative;
+    border: 2px solid black;
+    background-color: rgb(0, 0, 0.2);
+}
+.block{
+
+}
+.block h4{
+    color: #ffffff;
+text-align: center;
+}
+
+.block pre{
+    color: #ffffff;
+
+}
+
+.bachground-gradient {
+    display: block;
+    width: 100%;
+    height: 348px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 4;
+}
+
+.contents-text {
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    z-index: 5;
+}
+
+.btn-red {
+    border-radius: 0;
+    padding: 10px 30px;
+    background-color: #931a1a;
+}
+
+.order-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.layer {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    position: absolute;
+}
+
+.product {
+    width: 100%;
+    height: 230px;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.product-contents {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    color: white;
+    padding: 10px 10px;
+}
+
+.btn-order {
+    border: 1px solid white;
+    font-size: 18px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 5;
+    margin-top: 20px;
+    border-radius: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.contact {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+   background-color: #4A0404;
+}
+
+.title {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    padding-left: 15px;
+    font-size: 28px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.tutorial {
+    color: white;
+}
+
+.link {
+    font-family: "Roboto", sans-serif;
+    text-decoration: underline;
+}
+
+.btn-full {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 0;
+    height: 70px;
+}
+
+
+/* footer*/
+
+.item-list {
+    list-style: none;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.footer {
+    padding: 50px 100px;
+}
+
+.items {
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 13px;
+    display: inline;
+    color: black;
+    font-family: "Roboto", sans-serif;
+}
+
+.under-item {
+    font-weight: normal;
+    font-size: 11px;
+}
+
+::-webkit-input-placeholder {
+    /* Edge */
+    color: #977a5a !important;
+    font-weight: bolder;
+    font-size: 15px;
+}
+::-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #977a5a !important;
+    font-weight: bolder;
+    font-size: 15px;
+}
+::-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #977a5a !important;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: #977a5a !important;
+    font-weight: bolder;
+    font-size: 15px;
+    margin: 0px;
+}
+
+input {
+    margin: 0;
+    padding: 0 6px;
+    font-size: 19px;
+    line-height: 19px;
+    height: 60px !important;
+    border-radius: 0 !important;
+}
+
+
+/*focus*/
+
+a:focus,
+button:focus,
+input:focus {
+    outline-width: 1px !important;
+    outline-style: dashed !important;
+    outline-color: #977a5a !important;
+    outline-offset: 3px !important;
+    border-color: inherit !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+/*mobile  farzi farzi fazri */
+
+.container {
+        margin-left: auto;
+        margin-right: auto;
+        overflow: auto;
+       /* background-color: #4A0404;*/
+    }
+
+/*mobile */
+
+@media screen and (max-width: 720px) {
+    .footer {
+        padding: 50px 10px;
+    }
+    .order {
+        padding: 0px 10px;
+    }
+    .contact {
+        padding: 50px 10px;
+    }
+    .find-location {
+        position: absolute;
+        font-size: 12px;
+        top: 0px;
+        right: 0px;
+        color: white;
+        z-index: 9999;
+        padding-top: 0px !important;
+        text-decoration: underline;
+    }
+    .nav {
+        padding: 0px 0px;
+        height: 110px;
+        background-color: #4A0404;
+        background-image: url(./public/assets/img/background.png);
+    }
+    .navbar-nav {
+        padding-left: 20px;
+    background-image: url(./public/assets/img/background.png);
+    }
+}
+
+a:hover{
+    color: #977a5a;
+    text-decoration: none;
+}
+
+
+
+.card{
+   
+}
+.card-title{
+    font-size: 8px;
+
+}
+
+.card-text{
+    font-size: 10px;
+    text-align: justify;
+}
+
+
+}
+
+
+
+
+
+/* Style tab links */
+.tablink {
+  background-color: #4A0404;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 50%;
+}
+
+.tablink:hover {
+  background-color: #555;
+}
+
+
+
+.button4 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+ 
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+}
+ 
+.button4{border-radius: 45px;}
+
+
+
+
+.button5 {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  
+  width: 220px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+}
+
+.button5 {border-radius: 45px;}
+
+
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+ 
+  padding: 100px 20px;
+  height: 100%;
+ width: 100%;
+}
+
+/*   TabBar PICKUP PLACEORDE */
+#Home {
+    background-color: #FF5215;}
+#News {
+
+    background-color:  #FF5215;}
+
